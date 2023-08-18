@@ -1,0 +1,49 @@
+.home-bg-container {
+  background-color: #183b56;
+  height: 100vh;
+}
+
+.header {
+  height: 60px;
+  width: 80%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.logo-image {
+  padding-left: 30px;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.logout-button {
+  background-color: #1565d8;
+  color: white;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+  border-color: transparent;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.heading-and-image-container {
+  margin-top: 100px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.card-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+.digital-card {
+  max-width: 400px;
+  max-height: 400px;
+}
