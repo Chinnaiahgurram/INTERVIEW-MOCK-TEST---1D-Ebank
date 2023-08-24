@@ -10,7 +10,7 @@ class Login extends Component {
     event.preventDefault()
 
     const {userIdInput, pinInput} = this.state
-    const userDetails = {userIdInput, pinInput}
+    const userDetails = {user_id:userIdInput, pinInput}
     const url = 'https://apis.ccbp.in/ebank/login'
     const options = {
       method: 'POST',
